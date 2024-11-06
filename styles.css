@@ -114,7 +114,7 @@ h1 {
     margin-bottom: 5px;
     font-size: 1.2em;
 }
-.price-chart{
+.chart-visible{
     background-color: white;
     border: 2px solid var(--primary-color);
     border-radius: 25px;

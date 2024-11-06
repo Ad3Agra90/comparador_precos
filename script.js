@@ -27,7 +27,8 @@ function displayItems(products){
 }
 
 function updatePriceChart(products){
-    const ctx = priceChart.getContext('2d')
+    const ctx = priceChart.getContext('2d');
+    priceChart.classList.add('chart-visible');
     if(myChart){
         myChart.destroy()
     }
